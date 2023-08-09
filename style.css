@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* 
+font-family: 'Delius', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; 
+*/
+
+*{
+    box-sizing: border-box;
+    
+    margin: 0px ;
+    padding: 0px;
+}
+
+#topContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 90vw;
+    height: auto;
+
+    margin: auto;
+
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px 0;
+    padding: 0px;
+
+    font-family: 'Delius', cursive;
+    font-size: 2rem;
+    color: #303030;
+}
+
+#menuContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button{
+    background-color: transparent;
+    border: none;
+
+    margin: 0px 5px;
+    padding: 5px;
+
+    height: 45px;
+    width: 100px;
+
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 1rem;
+    color: #303030;
+
+    cursor: pointer;
+}
